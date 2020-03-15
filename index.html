@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link defer rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+    <!-- raiting icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- w3.css library -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+  
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark text-white"> 
+        Welcome to TicketFinder
+        <select class="ui dropdown">
+          <option value="">Genre</option>
+          <option value="1">Male</option>
+          <option value="0">Female</option>
+        </select>
+    </nav>
+    
+    <div class="d-flex justify-content-center">
+             <div class = 'container'>
+              <button id='review-button' class = 'clicked closed'> Leave Review </button>
+                 <form id ='review-form' class="w3-container">
+                   <label class="w3-text-blue"><b>Review</b></label>
+                   <br>
+                   <label for="">Rating</label>
+                   <select name = 'rating_dropdown' class ='rating-dropdown'>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                   <textarea class="w3-input w3-border" id='user_review' type="text" rows="7" placeholder="leave reviews"></textarea>
+                   <label class="w3-text-blue"><b>Username</b></label>
+                   <input class="w3-input w3-border" id='user_name' type="text">
+                   <button class="w3-btn w3-blue">Submit</button>
+                   <!-- <input type="submit"/> -->
+                              <!-- onclick, calling the function inside the html tag -->
+                   <button type = 'button' class="w3-btn w3-blue" id='close_form_btn' >Close</button>
+                 </form>  
+              </div>    
+    </div>
+  </div>
+
+  <!-- photo div -->
+          <div class="container my-container ">
+                <div class="row my-row">
+                    <div class="col my-col">
+                      row 1 col 1
+                    </div>
+
+                    <div class="col my-col">
+                      row 1 col 2 
+                    </div>
+                </div>
+
+                <div class="row my-row">
+                     <div class="col my-col">
+                       row 2 col 1 
+                     </div>
+
+                    
+                </div>
+          </div>
+  <div id ='footer' class ='container '></div>
+    <footer>
+      <div class='comment_section' style='margin-top: 500px;'>
+        <!-- <div class="col-md-6 col-md-offset-2 col-sm-12"></div> -->
+            <div class="reviews_append_div">
+                <!-- <div class="panel panel-info"> -->
+                    <!-- <div class="clearfix"></div> -->
+                        <hr>
+                        <!-- <ul class="media-list"> -->
+                            <!-- <li class="media"> -->
+                              <!-- <div class = "reviews_section"> -->
+                                    <!-- <strong class="text-success">@MartinoMont</strong> -->
+                                    <!-- <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lorem ipsum dolor sit amet.
+                                    </p> -->
+<!--                                   
+                                      <div class = 'review_star'>
+                                            <h5>Star Rating</h5>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span> -->   
+                                                      
+                               <!-- </div> -->
+                            <!-- </li> -->
+                        <!-- </ul> -->
+                  </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+  </div>
+    </footer>
+    
+  </div>
+
+    <!-- <nav class = 'container-fluid pt-3 my-2 bg-primary text-white'> 
+
+            <h2>Ticket Finder</h2>
+            <p> Descrption Details</p>
+            <p> Location: </p>
+            <p>show time</p>
+    </nav> -->
+</body>
+</html>

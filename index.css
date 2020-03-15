@@ -1,0 +1,102 @@
+.navbar{
+    padding: 2%;
+    font-weight: bolder;
+    font-size: 220%;
+}
+
+/* footer */
+/* review-section */
+
+#review-button{
+    position: relative; left: 95%;
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 70%;
+    font-weight:bold;
+
+}
+#review-form{
+    position: absolute;
+    top: 220px;
+    right: 5px;
+    width: 200px;
+    height: 100px;
+
+
+    display: none;
+    margin: auto;
+    position: absolute;
+}
+
+/* review_star */
+.checked {
+    color: orange;
+  }
+
+h5{
+    color: crimson;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+#search-input{
+    border: 5px solid;
+}
+
+
+/* .comment_section{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0px;
+    background-color: blanchedalmond;
+} */
+
+.reviews_section{
+
+    position: absolute;
+    left: 4px;
+    background-color: blanchedalmond
+}
+
+
+
+/* dropdown */
+
+.ui.dropdown{
+    font-size: 60%;
+    background-color:whitesmoke;
+    margin-left: 50%;
+}
+
+
+/* event photo */
+.event_photo{
+    position: absolute;
+    margin-right: 10px;
+    margin-top: 0;
+    border: solid blue;
+}
+
+
+.my-container{
+    border: 1px solid green;
+}
+.my-row{
+    border: 3px solid red;
+}
+
+.my-col{
+    
+    border: 3px dotted blue;
+}
