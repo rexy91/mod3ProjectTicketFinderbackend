@@ -14,7 +14,6 @@ class UsersController < ApplicationController
     end
 
     def showOneUser
-
         user = User.find_by(id:params[:id])
         render json:user 
 
@@ -22,7 +21,7 @@ class UsersController < ApplicationController
 
 
     def create
-
+        
         @user = User.find_or_create_by(userParams)
         session[:user_id] = @user.id
         render json: @user, :except => [:created_at, :updated_at]

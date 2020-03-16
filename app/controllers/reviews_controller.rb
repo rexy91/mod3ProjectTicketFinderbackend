@@ -6,6 +6,7 @@ class ReviewsController < ApplicationController
 
     # Post route for comment
     def create
+            
             # Add id to params , id getting from the POST fetch body.
               
             review = Review.create(content:params[:content], user_id:params[:userId], rating:params[:rating], username: params[:user_name])
