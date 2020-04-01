@@ -6,7 +6,7 @@ class TicketsController < ApplicationController
     end
 
     def create
-
+        byebug
         ticket = Ticket.create(ticketParams)
         render json:ticket
         
